@@ -1,17 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:toonflix/widgets/button.dart';
 
-class Player {
-  String? name;
-  String? position;
-
-// named parameter 라고 부른다.
-  Player({required this.name, this.position});
-}
-
 void main() {
-  var chanho = Player(name: "찬호", position: 'MF');
-  print(chanho);
   runApp(App());
 }
 
